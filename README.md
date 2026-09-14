@@ -4,7 +4,7 @@
 Este projeto foi desenvolvido para a disciplina de Sistemas Embarcados, do curso de Engenharia de Computação da Faculdade Engenheiro Salvador Arena.
 O sistema consiste em um Data Logger Ambiental Inteligente, desenvolvido para monitorar e registrar as condições ambientais de armazenamento de amostras destinadas a análises por Microscopia de Força Atômica (AFM — Atomic Force Microscopy).
 O dispositivo realiza o monitoramento contínuo de:
-🌡️ Temperatura;
+1. 🌡️ Temperatura;
 💧 Umidade relativa do ar;
 💡 Luminosidade;
 🕐 Data e hora das medições.
