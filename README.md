@@ -4,31 +4,37 @@
 Este projeto foi desenvolvido para a disciplina de Sistemas Embarcados, do curso de Engenharia de Computação da Faculdade Engenheiro Salvador Arena.
 O sistema consiste em um Data Logger Ambiental Inteligente, desenvolvido para monitorar e registrar as condições ambientais de armazenamento de amostras destinadas a análises por Microscopia de Força Atômica (AFM — Atomic Force Microscopy).
 O dispositivo realiza o monitoramento contínuo de:
-1. 🌡️ Temperatura;
-💧 Umidade relativa do ar;
-💡 Luminosidade;
-🕐 Data e hora das medições.
+
+1. 🌡️ **Temperatura**;
+2. 💧 **Umidade relativa do ar**;
+3. 💡 **Luminosidade**;
+4. 🕐 **Data e hora das medições**.
+   
 Os dados coletados são processados pelo microcontrolador e armazenados em memória EEPROM, permitindo o acompanhamento histórico das condições às quais as amostras foram submetidas.
 Além do registro das informações, o sistema possui uma Interface Homem-Máquina (IHM) baseada em display LCD e mecanismos de alerta visual e sonoro para indicar condições ambientais fora dos limites configurados.
 
 ## 🔬 Contexto da Aplicação
 A Microscopia de Força Atômica (AFM) é uma técnica de caracterização de superfícies em escala nanométrica, amplamente utilizada em áreas como:
-Nanotecnologia;
-Ciência dos materiais;
-Biomedicina;
-Engenharia;
-Pesquisa científica;
-Caracterização de superfícies.
+1. **Nanotecnologia**;
+2. **Ciência dos materiais**;
+3. **Biomedicina**;
+4 **Engenharia**;
+5. **Pesquisa científica**;
+6. **Caracterização de superfícies**.
+   
 A qualidade e a confiabilidade das análises podem ser influenciadas pelo estado de conservação das amostras. Dependendo do material analisado, fatores ambientais podem provocar alterações físicas ou químicas capazes de interferir nos resultados experimentais.
+
 Entre os fatores que podem ser relevantes durante o armazenamento estão:
-Variações de temperatura;
-Elevados níveis de umidade;
-Exposição inadequada à luminosidade;
-Oxidação de superfícies;
-Contaminação ambiental;
-Degradação ou alteração das propriedades do material.
+1. **Variações de temperatura**;
+2. **Elevados níveis de umidade**;
+3. **Exposição inadequada à luminosidade**;
+4. **Oxidação de superfícies**;
+5. **Contaminação ambiental**;
+6. **Degradação ou alteração das propriedades do material**.
+   
 Dessa forma, o monitoramento das condições de armazenamento pode contribuir para a rastreabilidade e a preservação das amostras antes da realização dos experimentos.
-Observação: os limites considerados seguros para temperatura, umidade e luminosidade devem ser definidos de acordo com o tipo de amostra e os requisitos específicos do experimento. O sistema permite que esses limites sejam configurados conforme a aplicação.
+
+**Observação**: os limites considerados seguros para temperatura, umidade e luminosidade devem ser definidos de acordo com o tipo de amostra e os requisitos específicos do experimento. O sistema permite que esses limites sejam configurados conforme a aplicação.
 
 ## 🎯 Objetivo Geral
 Desenvolver um sistema embarcado de monitoramento ambiental capaz de medir, registrar, armazenar e apresentar informações relacionadas às condições de armazenamento de amostras destinadas à Microscopia de Força Atômica.
