@@ -144,7 +144,19 @@ Quando uma variável ultrapassa o limite configurado, o sistema pode acionar:
 ⚠️ Mensagem de alerta na interface.
 
 ## 🧰 Componentes Utilizados
-ComponenteFunçãoATmega328PProcessamento e controle do sistemaDHT11Medição de temperatura e umidadeLDRDetecção da intensidade luminosaRTCControle de data e horaEEPROMArmazenamento não volátil das mediçõesLCD 16x2 I2CInterface de visualizaçãoBuzzerAlerta sonoroLEDsIndicação visual de estadosFonte de alimentaçãoAlimentação do sistema
+
+| Componente | Função |
+| :--- | :--- |
+| **Fonte de alimentação** | Alimentação do sistema |
+| **ATmega328P** | Processamento e controle do sistema |
+| **DHT11** | Medição de temperatura e umidade |
+| **LDR** | Detecção da intensidade luminosa |
+| **RTC** | Controle de data e hora |
+| **EEPROM** | Armazenamento não volátil das medições |
+| **LCD 16x2 I2C** | Interface de visualização |
+| **Buzzer** | Alerta sonoro |
+| **LEDs** | Indicação visual de estados |
+
 
 ## 🖥️ Interface Homem-Máquina (IHM)
 A IHM foi projetada para apresentar as informações de forma simples e objetiva.
