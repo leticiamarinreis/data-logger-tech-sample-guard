@@ -21,11 +21,13 @@ A Microscopia de Força Atômica (AFM) é uma técnica de caracterização de su
 1. **Nanotecnologia**;
 2. **Ciência dos materiais**;
 3. **Biomedicina**;
-4 **Engenharia**;
+4. **Engenharia**;
 5. **Pesquisa científica**;
 6. **Caracterização de superfícies**.
    
-A qualidade e a confiabilidade das análises podem ser influenciadas pelo estado de conservação das amostras. Dependendo do material analisado, fatores ambientais podem provocar alterações físicas ou químicas capazes de interferir nos resultados experimentais.
+A qualidade e a confiabilidade das análises podem ser influenciadas pelo estado de conservação das amostras. 
+
+Dependendo do material analisado, fatores ambientais podem provocar alterações físicas ou químicas capazes de interferir nos resultados experimentais.
 
 Entre os fatores que podem ser relevantes durante o armazenamento estão:
 1. **Variações de temperatura**;
@@ -116,32 +118,34 @@ O sistema realiza a aquisição, processamento, apresentação e armazenamento d
               └─────────────────┘
 ```
 
-## ⚙️ Funcionamento
-O sistema realiza um ciclo contínuo de monitoramento.
+## ⚙️ Funcionamento do Sistema
+
+O sistema opera em um ciclo contínuo de monitoramento dividido nas seguintes etapas:
+
 1. **Aquisição:**
-Os sensores realizam a leitura das condições ambientais:
-DHT11: temperatura e umidade relativa do ar;
-LDR: luminosidade do ambiente.
+   - **DHT11:** Leitura da temperatura e umidade relativa do ar.
+   - **LDR:** Leitura da luminosidade do ambiente.
+
 2. **Processamento:**
-O ATmega328P recebe os dados dos sensores e realiza o processamento das informações.
-Os valores são comparados com os limites ambientais previamente configurados.
-3. **Registro de data e hora:**
-Um módulo RTC (Real-Time Clock) fornece a data e a hora associadas a cada registro.
-Isso permite relacionar cada medição ao momento exato em que foi realizada.
+   - O microcontrolador **ATmega328P** recebe os dados dos sensores e realiza o processamento das informações.
+   - Os valores coletados são comparados com os limites ambientais previamente configurados no sistema.
+
+3. **Registro de Data e Hora:**
+   - Um módulo **RTC (Real-Time Clock)** fornece a data e a hora exatas associadas a cada registro.
+   - Isso permite relacionar cada medição ao momento exato em que foi realizada.
+
 4. **Armazenamento:**
-As informações são armazenadas na EEPROM, uma memória não volátil que mantém os dados mesmo após o desligamento do sistema.
-Um registro pode conter, por exemplo:
-Data       Hora       Temperatura   Umidade   Luminosidade
-14/09/2026 20:15:32   24,5 °C       52 %      680
+   - As informações são armazenadas na **EEPROM**, uma memória não volátil que mantém os dados mesmo após o desligamento ou queda de energia do sistema.
 
 5. **Visualização:**
-As informações são apresentadas ao usuário por meio de um display LCD 16x2 com comunicação I2C.
-A interface permite visualizar os parâmetros monitorados e outras informações relevantes do sistema.
+   - As informações são apresentadas em tempo real através de um **Display LCD 16x2 com comunicação I2C**.
+   - A interface permite visualizar os parâmetros monitorados e outras informações relevantes do sistema de forma clara.
+
 6. **Alertas:**
-Quando uma variável ultrapassa o limite configurado, o sistema pode acionar:
-🔊 Alerta sonoro;
-💡 Indicador visual;
-⚠️ Mensagem de alerta na interface.
+   - Quando qualquer variável ultrapassa os limites configurados, o sistema aciona automaticamente:
+     - 🔊 **Alerta Sonoro** (Buzzer);
+     - 💡 **Indicador Visual** (LEDs de status/alerta);
+     - ⚠️ **Mensagem de Alerta** diretamente na interface do display LCD.
 
 ## 🧰 Componentes Utilizados
 
@@ -157,6 +161,14 @@ Quando uma variável ultrapassa o limite configurado, o sistema pode acionar:
 | **Buzzer** | Alerta sonoro |
 | **LEDs** | Indicação visual de estados |
 
+## 💻 Linguagens & Programação
+**C / C++ (Arduino Framework):** Linguagem principal utilizada para o desenvolvimento do firmware, controle de periféricos, lógica de processamento e gerenciamento da EEPROM.
+
+## 🧰 Softwares & Ferramentas de Desenvolvimento
+- **Arduino IDE:** Ambientes para desenvolvimento, compilação e upload do firmware.
+- **TinkerCAD:** Simulação de circuitos eletrônicos e validação do código antes da montagem física.
+- **GitHub:** Controle de versão e hospedagem do código-fonte do projeto.
+- **Serial Monitor:** Leitura de logs e depuração dos dados transmitidos via comunicação Serial.
 
 ## 🖥️ Interface Homem-Máquina (IHM)
 A IHM foi projetada para apresentar as informações de forma simples e objetiva.
