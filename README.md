@@ -162,15 +162,12 @@ Quando uma variável ultrapassa o limite configurado, o sistema pode acionar:
 A IHM foi projetada para apresentar as informações de forma simples e objetiva.
 
 Entre as informações que podem ser disponibilizadas estão:
-TEMP: 24.5 C
-UMID: 52 %
 
-LUZ: 680
-STATUS: NORMAL
+| Estado do Sistema | Mensagem no Monitor Serial |
+| :--- | :--- |
+| **Operação Normal** | `TEMP: 24.5 C \| UMID: 52 % \| LUZ: 680 \| STATUS: NORMAL` |
+| **Situação de Alerta** | `!! ALERTA !! UMIDADE ALTA` |
 
-Em situações de alerta:
-!! ALERTA !!
-UMIDADE ALTA
 
 A interface pode ser expandida futuramente para permitir:
 1. **Configuração dos limites**;
