@@ -198,7 +198,14 @@ Essa abordagem permite construir um histórico das condições ambientais às qu
 O sistema compara continuamente os valores medidos com os limites definidos para a aplicação.
 
 Exemplo:
-ParâmetroCondiçãoAçãoTemperaturaAcima do limiteAlertaTemperaturaAbaixo do limiteAlertaUmidadeAcima do limiteAlertaLuminosidadeAcima do limiteAlertaTodosDentro dos limitesOperação normal
+
+| Parâmetro | Condição | Ação |
+| :--- | :--- | :--- |
+| **Temperatura** | Acima do limite | Alerta |
+| **Temperatura** | Abaixo do limite | Alerta |
+| **Umidade** | Acima do limite | Alerta |
+| **Luminosidade** | Acima do limite | Alerta |
+| **Todos** | Dentro dos limites | Operação normal |
 
 Os limites não são universais para todas as amostras e devem ser definidos de acordo com as características do material armazenado e os requisitos experimentais.
 
