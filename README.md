@@ -240,15 +240,15 @@ Os limites não são universais para todas as amostras e devem ser definidos de 
 
 ## 📊 Benefícios
 O sistema apresenta os seguintes benefícios:
-🔬 Contribui para a preservação das amostras;
-📈 Permite o acompanhamento histórico das condições ambientais;
-🕐 Registra as medições associadas à data e hora;
-🚨 Permite identificar condições fora dos limites estabelecidos;
-💾 Mantém os dados armazenados em memória não volátil;
-💰 Utiliza componentes de baixo custo;
-🧑‍🔬 Facilita o acompanhamento por pesquisadores e técnicos;
-⚙️ Demonstra conceitos de instrumentação e sistemas embarcados;
-🔧 Possibilita futuras expansões de hardware e software.
+1. 🔬 **Contribui para a preservação das amostras**;
+2. 📈 **Permite o acompanhamento histórico das condições ambientais**;
+3. 🕐 **Registra as medições associadas à data e hora**;
+4. 🚨 **Permite identificar condições fora dos limites estabelecidos**;
+5. 💾 **Mantém os dados armazenados em memória não volátil**;
+6. 💰 **Utiliza componentes de baixo custo**;
+7. 🧑‍🔬 **Facilita o acompanhamento por pesquisadores e técnicos**;
+8. ⚙️ **Demonstra conceitos de instrumentação e sistemas embarcados**;
+9. 🔧 **Possibilita futuras expansões de hardware e software.**
 
 ## 🧪 Aplicação Acadêmica
 O projeto integra conceitos de diferentes áreas da Engenharia de Computação, incluindo:
