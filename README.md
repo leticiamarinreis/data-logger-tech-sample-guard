@@ -162,7 +162,7 @@ O sistema opera em um ciclo contínuo de monitoramento dividido nas seguintes et
 | **LEDs** | Indicação visual de estados |
 
 ## 💻 Linguagens & Programação
-- **C / C++ (Arduino Framework):** Linguagem principal utilizada para o desenvolvimento do firmware, controle de periféricos, lógica de processamento e gerenciamento da EEPROM.
+- **C++ (Arduino Framework):** Linguagem principal utilizada para o desenvolvimento do firmware, controle de periféricos, lógica de processamento e gerenciamento da EEPROM.
 
 ## 🧰 Softwares & Ferramentas de Desenvolvimento
 - **Arduino IDE:** Ambientes para desenvolvimento, compilação e upload do firmware.
